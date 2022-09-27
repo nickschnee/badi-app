@@ -1,6 +1,11 @@
 <template>
 
-  <h1> Experiment</h1>
+  <!-- Filter mit Computed (best practice) -->
+  <!-- Filter mit Computed (best practice) -->
+  <!-- Filter mit Computed (best practice) -->
+  <!-- Filter mit Computed (best practice) -->
+
+  <h1 class=""> Badis mit Computed</h1>
 
   <h1>Alle {{ computedBadis.length }} Zürcher Badis</h1>
 
@@ -14,20 +19,21 @@
 
       <p> {{meineBadi.temperature}} </p>
 
-      <p> {{meineBadi.openText}} </p>
+      <p class=""> {{meineBadi.openText}} </p>
 
     </div>
 
   </div>
 
+<!-- Filter mit If --> 
+<!-- Filter mit If --> 
+<!-- Filter mit If --> 
+<!-- Filter mit If --> 
+<!-- Filter mit If --> 
+<!-- Filter mit If --> 
 
-
-
-
-
-
-
-  <h1>Alle {{ meineBadis.length }} Zürcher Badis</h1>
+  <h1>Filter mit If-Bedingung (weniger schön) </h1> 
+  <h1> Alle {{ meineBadis.length }} Zürcher Badis</h1>
 
   <button @click="fetchBadis"> Lade Badidaten</button>
 
